@@ -1,0 +1,37 @@
+body{
+    background-color: #0e0e0e;
+}
+/* div{
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
+} */
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+   color: #4daafc; 
+   padding-left: 10px;
+   padding-right: 10px;
+}
+span{
+    padding-right: 20px;
+}
+.topLink{
+    color: gray;
+    cursor: pointer;
+}
+button, input{
+    color:white;
+    background-color: #0078d4;
+    border-radius: 4px;
+    border-color: #0078d4;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
