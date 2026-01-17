@@ -48,7 +48,7 @@ function subtract(a, b){
     console.log(a- b);
 }
 
-calculator( 10 , 2, add)
+//calculator( 10 , 2, add)
 
 function greet(){
     console.log("Hello World")
@@ -59,6 +59,29 @@ function greet(){
 
 function getTime(){
     //const time = new Date();
-    console.log(new Date().toTimeString().slice(0, 8))
+    //console.log(new Date().toTimeString().slice(0, 8))
 }
-setInterval(getTime, 1000);
+//setInterval(getTime, 1000);
+
+// const beforeTime = new Date().getTime();
+// console.log(beforeTime)
+
+// setTimeout(getTime, 1 * 1000);
+
+// const afterTime = new Date().getTime();
+// console.log(afterTime)
+// console.log(afterTime - beforeTime);
+
+
+function sum(a, b, func){
+    func(a, b);
+}
+
+function sumOfSquares(a, b){
+    console.log(Math.pow(a,2) + Math.pow(b, 2));
+}
+function sumOfCubes(a, b){
+    console.log(Math.pow(a, 3)+ Math.pow(b,3));
+}
+
+sum( 10, 5, sumOfCubes);

@@ -1,0 +1,18 @@
+body{
+    background-color: linear-gradient(red, blue);
+
+    color: white;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.topbar{
+    background-color: #0d1177; 
+    padding: 10px 100px; 
+    margin: 20px;
+}
+
+.banner{
+    background-color: #263853; 
+    box-shadow: 0px 0px 10px 2px grey;
+}
