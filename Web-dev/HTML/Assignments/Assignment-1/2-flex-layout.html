@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Vertical Align
+        </title>
+        <style>
+            .container{
+                display: flex; 
+                justify-content: center;
+                margin: 0 auto;
+                width: 1200px;
+                height: 70px;
+                font-size: 30px;
+            }
+            .left{
+                background-color: red;
+                flex-grow: 1;
+                flex-direction: column;
+                display: flex;
+                justify-content: center;
+            }
+            .right{
+                background-color: blue;
+                flex-grow: 2;
+                flex-direction: column;
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                    <b>Left</b>
+            </div>
+            <div class="right">
+                <b>Right</b>
+            </div>
+        </div>
+    </body>
+</html>
